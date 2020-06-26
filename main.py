@@ -18,7 +18,8 @@ def progress(symbol):
     wait = sleep(2)
 
     for i in range(1,11):
-        print(symbol, end="")
+        print(i, end='\t')
+        sleep(1)
     print('\n')
 
 progress(symbol('#'))
